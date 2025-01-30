@@ -44,19 +44,19 @@ if(isset($_POST['update'])){
     <form>
         <div class="mb-3">
          <label>First Name</label>
-         <input type="text" class="form-control" name="fname" autocomplete="off">
+         <input type="text" class="form-control" name="fname" autocomplete="off" value="<?php echo $fname; ?>">
         </div>
         <div class="mb-3">
          <label>Last Name</label>
-         <input type="text" class="form-control" name="lname" autocomplete="off">
+         <input type="text" class="form-control" name="lname" autocomplete="off" value="<?php echo $lname; ?>">
         </div>
         <div class="mb-3">
          <label>Email</label>
-         <input type="email" class="form-control" name="email" autocomplete="off">
+         <input type="email" class="form-control" name="email" autocomplete="off" value="<?php echo $email; ?>">
         </div>
         <div class="mb-3">
          <label>Mobile</label>
-         <input type="text" class="form-control" name="mobile" autocomplete="off">
+         <input type="text" class="form-control" name="mobile" autocomplete="off" value="<?php echo $mobile; ?>">
         </div>
 
   <button type="submit" class="btn btn-dark btn-lg"  name="update">Update</button>
