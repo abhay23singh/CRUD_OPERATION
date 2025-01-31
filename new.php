@@ -31,32 +31,40 @@ if(isset($_POST['submit'])){
   <body>
 
 
-    <div class="container my-5">
-      <form method="post">
-      <div class="mb-3">
-          <label class="form-label">First Name</label>
-            <input type="text" class="form-control" 
-            placeholder="Enter your First Name" name="fname" autocomplete="off">
-      </div>
-      <div class="mb-3">
-          <label class="form-label">Last Name</label>
-            <input type="text" class="form-control" 
-            placeholder="Enter your Last Name" name="lname" autocomplete="off">
-      </div>
-      <div class="mb-3">
-          <label class="form-label">Email</label>
-            <input type="mail" class="form-control" 
-            placeholder="Enter your Email" name="email" autocomplete="off">
-      </div>
-      <div class="mb-3">
-          <label class="form-label">Mobile</label>
-            <input type="mobile" class="form-control" 
-            placeholder="Enter your Mobile No" name="mobile" autocomplete="off">
-      </div>
-      <button class="btn btn-dark btn-lg my-3"
-      name="submit">Submit</button>
-      </form>
-    </div>
+  <div class="container my-5 d-flex justify-content-center">
+    <form method="post" class="p-4 bg-light shadow-lg rounded-4 w-50">
+        <h2 class="text-center text-primary fw-bold mb-4">User Registration</h2>
+
+        <div class="mb-3">
+            <label class="form-label fw-semibold">First Name</label>
+            <input type="text" class="form-control rounded-pill px-3" 
+                placeholder="Enter your First Name" name="fname" autocomplete="off">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-semibold">Last Name</label>
+            <input type="text" class="form-control rounded-pill px-3" 
+                placeholder="Enter your Last Name" name="lname" autocomplete="off">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-semibold">Email</label>
+            <input type="mail" class="form-control rounded-pill px-3" 
+                placeholder="Enter your Email" name="email" autocomplete="off">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-semibold">Mobile</label>
+            <input type="mobile" class="form-control rounded-pill px-3" 
+                placeholder="Enter your Mobile No" name="mobile" autocomplete="off">
+        </div>
+
+        <button class="btn btn-dark btn-lg w-100 rounded-pill mt-3 shadow-sm" name="submit">
+            🚀 Submit
+        </button>
+    </form>
+</div>
+
 
 
   </body>
